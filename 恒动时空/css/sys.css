@@ -1,0 +1,141 @@
+.center_box{
+    width: 1080px;
+    margin: 0 auto;   
+    overflow: hidden;
+}
+
+#header{
+    height: 46px;
+    padding: 36px 0 16px 82px;
+    background-color: #fff;
+    border-bottom: 1px solid #d5d5d5;
+}
+.logo{
+    width: 152px;
+    height: 32px;
+    /* padding: 36px 0 16px 82px; */
+    background: url(../img/logo.jpg) no-repeat center;
+    text-indent: -9999px;
+    float: left;
+}
+.nav{
+    float: left;
+    height: 46px;
+    margin-left: 192px;
+}
+.nav ul{
+    overflow: hidden;
+    height: 46px;
+}
+.nav ul li {
+    float: left;
+    background: url(../img/hdbg_03.jpg) no-repeat center right;
+}
+.nav ul li:nth-child(7){
+    background: none;
+}
+.nav ul li a{
+    font-size: 14px;
+    padding: 30px;
+    line-height: 46px;
+    color: #666;
+}
+#txt{
+    height: 68px;
+    overflow: hidden;
+}
+#txt .center_box p{
+    font-size: 12px;
+    color: #050304;
+    line-height:68px ;
+    float: left;
+    margin-right: 380px;
+}
+#txt .center_box a{
+    display: block;
+    font-size: 12px;
+    color: #3a343e;
+    line-height: 68px;
+    float: left;
+}
+#txt .center_box a img{
+    margin: 0 10px ;
+    margin-top: -6px;
+}
+#pic_list{
+    min-height: 324px;
+    background: url(../img/bg.jpg);
+}
+.list_top{
+    height: 76px;
+    padding-top: 20px;
+    text-align: center;
+}
+.list_top a{
+    font-size: 14px;
+    color: #ddfaf6;
+    line-height: 60px;
+    margin:0 17px;
+}
+#pic_list{
+    min-height: 216px;
+}
+#pic_list .center_box ul{
+    overflow: hidden;
+    
+}
+#pic_list .center_box ul li{
+    width: 250px;
+    height: 216px;
+    float: left;
+    margin: 10px;
+}
+#pic_list .center_box ul li p a{
+    display: block;
+    width: 240px;
+    background-color: #fff;
+    line-height: 34px;
+    padding-left: 10px;
+}
+.pic_bot{
+    width: 72px;
+    height: 36px;
+    margin: 0 auto;
+}
+.bot{
+    margin-top: -2px;
+    height: 4px;
+    background: #d32a23;
+}
+#footer{
+    height: 144px;
+    padding: 10px 0 0 40px;
+    background: url(../img/fbg_06.jpg);
+    overflow: hidden;
+}
+.footer_left{
+    float: left;
+}
+#footer .center_box .footer_left a{
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+    line-height: 40px;
+}   
+#footer .center_box .footer_left span{
+    color: #fff;
+    margin: 0 8px;
+}
+#footer .center_box .footer_left p{
+    font-size: 12px;
+    line-height: 22px;
+    color: #7f8d80;
+}
+.footer_right{
+    float: right;
+    margin:20px 40px 0 0;
+}
+.footer_right p{
+    font-size: 12px;
+    color: #858585;
+}

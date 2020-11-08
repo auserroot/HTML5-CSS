@@ -1,0 +1,473 @@
+#header{
+    height: 84px;
+    background: url(../img/h_bg_03.jpg);
+}
+.center_box{
+    width: 1228px;
+    height: 100%;
+    margin: 0 auto;
+}
+.logo{
+    float: left;
+    margin-left: 15px;
+}
+.logo h1 a{
+    display: block;
+    width: 84px;
+    height: 84px;
+    background: url(../img/logo.jpg) no-repeat center;
+    text-indent: -9999px;
+}
+.nav {
+    float: left;
+    margin-top: 34px;
+    margin-left: 500px;
+}
+.nav div{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #FA1E02;
+}
+.nav a{
+    display: inline-block;
+    width: 32px;
+    font-size: 16px;
+    padding-bottom: 4px;
+    margin: 0 12px;
+    color: #fff;
+}
+.nav a:hover{
+    border-bottom: 2px solid #FA1E02;
+}
+.nav div{
+    text-align: center;
+}
+.nav div i{
+    color: #fff;
+}
+.nav i{
+    font-size: 12px;
+    color: #FA1E02;
+}
+.nav span{
+    font-size: 14px;
+    color: #fff; 
+}
+.nav .span01{
+    margin-right: 8px;
+}
+#banner{
+    margin: 0 auto;
+    height: 793px;
+}
+#banner img{
+    width: 100%;
+}
+#main{
+    height:1032px;
+    text-align: center;
+}
+#main .center_box>img{
+    margin: 6% 0 8% 0;
+}
+#main .list{
+    display: flex;
+    flex-direction: column;
+}
+#main .list ul{
+    display: flex;
+    justify-content: space-around;
+}
+.list ul li{
+    width: 19%;
+    text-align: center;
+}
+.list ul li div{
+    width:134px ;
+    height: 134px;
+    border: 1px solid #DCDCDC;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.list ul li div i{
+    display: inline-block;
+    font-size: 56px;
+    align-self: center;
+    transition: all 1s;
+}
+.list ul li strong{
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 38px;
+    color: #545454;
+}
+.list ul li span{
+    font-size: 12px;
+    color: #ccc;
+}
+.list ul li:hover div{
+    background: red;
+}
+.list ul li:hover div i{  
+    transform: rotate(360deg);
+    color: #fff;
+}
+.iconfont_list{
+    width: 888px;
+    height: 46px;
+    margin: 6% auto 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.iconfont_list a{
+    display: flex;
+    width: 46px;
+    height: 46px;
+    border: 1px solid #C7C7C8;
+    border-radius: 50%;
+    justify-content: center;
+}
+.iconfont_list a i{
+    font-size: 28px;
+    color: #C7C7C8;
+    align-self: center;
+}
+.iconfont_list a:hover{
+    background-color: #C7C7C8;
+}
+.iconfont_list a:hover i{
+    color: #fff;
+    font-size: 30px;
+}
+#case{
+    min-height:1140px;
+    background: #F9F9F9;
+    text-align: center;
+}
+#case .center_box>img{
+    margin: 6% auto 8% auto;
+}
+#case .center_box ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+#case .center_box ul li{
+    width: 25%;
+}
+#case .center_box ul li {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: #444;
+}
+#case .center_box ul li div{
+    position: relative;
+}
+#case .center_box ul li div a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background:rgba(0, 0, 0,0.6) url(../img/jia.png) no-repeat center;
+    opacity: 0; 
+    transition: all 1s;
+}
+#case .center_box ul li span{
+    display: flex;
+    height: 54px;
+    line-height: 54px;
+    justify-content: space-between;
+    padding: 0 20px;
+    background:#EDEDEE ;
+}
+#case .center_box ul li span b{
+    color: #A9A9A9;
+}
+#case .center_box ul li:hover div a{
+    opacity: 1;
+}
+#case .center_box ul li:hover span{
+    background:red ;
+    color: #fff;
+}
+#case .but{
+    width: 180px;
+    height: 40px;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 40px;
+    color: red;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+#case .but:hover{
+    color: #fff;
+    background: red;
+}
+#news{
+    height: 910px;
+    text-align: center;
+}
+#news .center_box>img{
+    margin: 7% auto 5%;
+}
+#news .center_box .pic_2{
+    height: 368px;
+}
+#news .center_box .pic_2 span{
+    display: block;
+    float: left;
+    position: relative;
+    margin-bottom: 6%;
+}
+#news .center_box .pic_2 span a{
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255,0.4);
+    opacity: 0;
+    transition: all 0.5s;
+}
+#news .center_box .pic_2 img{
+    margin: 0 12px;
+}
+#news .center_box .pic_2 span:hover a{
+    opacity: 1;
+}
+.news_list ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.news_list ul li{
+    width: 23%;
+}
+.news_list ul li dt{
+    width: 280px;
+    height:30px ;
+    line-height: 30px;
+    background:#1F1E26 ;
+    font-size:14px ;
+    color: #94A5B4;
+    text-align: left;
+    text-indent: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.news_list ul li dt i{
+    margin-right: 10px;
+}
+.news_list ul li dd{
+    font-size: 12px;
+    line-height: 40px;
+    color: #535456;
+    border-bottom:1px solid #E8E8E8 ;
+    text-align: left;
+    text-indent: 20px;
+}
+#ser-v{
+    height: 954px;
+    text-align: center;
+    background: #F6F6F6;
+}
+#ser-v .center_box>img{
+    margin: 9% auto 6% auto;
+}
+#ser-v .center_box ul {
+    display: flex;
+    justify-content: space-between;
+}
+#ser-v .center_box ul li{
+    width: 30%;
+    text-align: left;
+}
+#ser-v .center_box ul li div{
+    width: 380px;
+    position: relative;
+    margin-bottom: 26px;
+} 
+#ser-v .center_box ul li div a{
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255,0.4);
+    opacity: 0;
+    transition: all 0.5s;
+}
+#ser-v .center_box ul li:hover div a{
+    opacity: 1;
+}
+
+#ser-v .center_box ul li p{
+    font-size: 14px;
+    color: #6E6E6F;
+}
+#ser-v .center_box .pic_img{
+    margin-top: 7%;
+}
+#cov_e{
+    height: 1034px;
+    text-align: center;
+}
+#cov_e .center_box>img{
+    margin: 6% auto 4% auto;
+}
+.txt{
+    font-size:14px ;
+    line-height: 30px;
+    color: #777;
+    text-align: center;
+    margin-bottom: 48px;
+}
+#cov_e .center_box ul{
+    display: flex;
+}
+#cov_e .center_box ul li{
+    display: flex;
+    justify-content: center;
+    width: 240px;
+    height: 86px;
+    padding-top: 14px;
+    border: 1px solid #EEEEEE;
+}
+#cov_e .center_box ul li i{
+    font-size: 50px;
+    margin-right: 16px;
+}
+#cov_e .center_box ul li span{
+    text-align: left;
+}
+#cov_e .center_box ul li span strong{
+    font-size: 16px;
+    color: #363636;
+}
+#cov_e .center_box ul li span p{
+    font-size:12px ;
+    color: #8E8C8C;
+}
+#cov_e .center_box ul li:hover{
+    background: red;
+    color: #fff;
+}
+#cov_e .center_box ul li:hover span strong,#cov_e .center_box ul li:hover span p{
+    color: #fff;
+}
+.box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12%;
+    margin-bottom: 10%;
+}
+.box .box_right{
+    text-align: left;
+    margin-left: 48px;
+    position: relative;
+}
+.box_right strong{
+    font-size: 16px;
+    line-height: 24px;
+    color: red;
+    margin-bottom: 18px;
+}
+.box_right p{
+    font-size: 14px;
+    line-height: 30px;
+    color: #717273;
+    margin-bottom: 18px;
+}
+.box_right span{
+    display: block;
+    font-size: 14px;
+    line-height: 30px;
+    color: #717273;
+    margin-bottom: 20px;
+}
+.box_right span i{
+    color: red;
+}
+.box_right span .m-l{
+    margin-left: 20px;
+}
+.box_right .but{
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    width: 174px;
+    height: 50px;
+    color: #fff;
+    background:#313D50 ;
+    border-radius: 5px;
+    box-shadow:  2px 5px 5px #1D242F;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+}
+.box_right .but:hover{
+    background: red;
+    color: #fff;
+    font-size: 16px;
+}
+.line{
+    height: 1px;
+    background-color:#E8E8E8 ;
+}
+.y_link{
+    width: 1228px;
+    margin: 0 auto;
+    height: 160px;
+    font-size: 12px;
+    color: #727272;
+    text-align: left;
+    line-height: 30px;
+    position: relative;
+}
+.y_link div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.y_link div b{
+    width: 9.09%;
+}
+.y_link span{
+    position: absolute;
+    top: 24px;
+    right: 0px;
+}
+#footer{
+    height: 214px;
+    background-color: #1F1E26;
+    text-align: center;
+    padding-top: 36px;
+}
+.f_nav a{
+    font-size: 12px;
+    line-height: 82px;
+    color: #9D9D9E;
+}
+.f_nav span{
+    color: #9D9D9E;
+    margin:0 6px ;
+}
+#footer .center_box p{
+    font-size: 12px;
+    color:#9D9D9E ;
+    margin-bottom: 36px;
+}
+#footer .center_box p a{
+    font-size: 12px;
+    color:#9D9D9E ;
+    margin-left: 20px;
+}
+

@@ -1,0 +1,278 @@
+/* 网页重置  css reset  */
+*{
+     margin: 0;/*  外边距0 */
+     padding: 0;/* 内边距0 */
+}
+html,body{
+    /* 设置页面默认字号与字体 */
+    font: 12px "微软雅黑",Arial;   
+}
+h1,h2,h3,h4,h5,h6,b,strong{
+    /* 清除标签默认加粗 */
+    font-weight: normal;
+    font-size: 100%;
+}
+i,em{
+    /* 清除标签默认倾斜 */
+    font-style: normal;
+}
+a{
+    /* 清除标签默认下划线与文字颜色 */
+    color: #555555;
+    text-decoration: none;
+}
+li{
+    /* 清除标签默认的项目符号 */
+    list-style: none;
+}
+input{
+    outline: none;
+    /* 消除input标签点击边框样式 */
+}
+
+
+#header{
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    /* 可以让块元素水平居中显示 */
+}
+.logo{
+    float: left;
+    /* 元素浮动后特点：当元素没有设置宽高时浮动后会获取子元素宽高来呈现自己的尺寸 */
+    margin-left: 21px;
+    margin-top: 21px;
+}
+.search{
+    width: 225px;
+    height: 26px;
+    float: right;
+    border: 1px solid #e5e5e5;
+    margin-top: 39px;
+    margin-right: 20px;
+}
+.txt{
+    width: 195px;
+    height: 26px;
+    background: #f0f0f0;
+    border: 0;
+    color: #999;
+    text-indent: 14px;
+    float: left;
+    font-size: 10px;
+}
+.sub{
+    width: 30px;
+    height: 26px;
+    background:#f3f3f3 url(../images/search.jpg) no-repeat center;
+    /* 用背景图实现按钮图标 */
+    border: 0;
+    float: left;
+}
+#nav{
+    width: 1000px;
+    height: 58px;
+    background: #313131;
+    margin: 0 auto;
+}
+#nav ul li{
+    float: left;
+    width: 124px;
+    height: 58px;
+    line-height: 58px;
+    text-align: center;
+    border-right: 1px solid #4a4a4a;
+}
+#nav ul li a{
+    color: #fff;
+    font-size: 14px;
+
+}
+#nav .nobdr{
+    border-right: none;
+}
+#banner{
+    width: 1000px;
+    height: 466px;
+    margin: 0 auto;
+}
+.news{
+    width: 1000px;
+    height: 240px;
+    /* background: #f1f1f1; */
+    margin: 0 auto;
+}
+.news_left{
+    width: 434px;
+    height: 226px;
+    /* background: #f1f1f1; */
+    float: left;
+    padding:14px 28px 0 20px;
+   
+}
+.news_left h2,.news_center h2,.news_right h2{
+    line-height: 60px;
+    font: 500  #656972;
+    font-size: 20px;
+}
+.news_left ul li{
+    padding-left: 14px;
+    overflow: hidden;
+}
+.news_left ul li a{
+    line-height: 24px;
+    background: url(../images/libg_03.jpg) no-repeat left center;
+    text-indent: 14px;
+    float: left;
+}
+.news_left ul li span{
+    float: right;
+}
+.news_center{
+    width: 196px;
+    height: 226px;
+    background: #F1F1F1;
+    float: left;
+    padding: 14px 24px 0 20px ;
+}
+.news_center p{
+    padding-top: 12px ;
+    /* font-size: 14px; */
+    margin-bottom: 12px;
+    line-height: 26px;
+    /* letter-spacing: 3px; */
+    color:#4E4E4E ;
+}
+.news_center p span{
+    font-size: 14px;
+}
+.news_center a{
+    display: block;
+    /* font-size: 14px; */
+    line-height: 24px;
+    color:#999 ;
+}
+.news_right{
+    width: 180px;
+    height: 226px;
+    padding: 14px 55px 0 25px;
+    background: #FBFBFB url(../images/img01.jpg) no-repeat 146px 122px;
+    /* background: #f444f9; */
+    float: left;
+}
+.news_right p{
+    line-height: 24px;
+    margin-bottom: 44px;
+}
+.news_right a{
+    display: block;
+    width: 66px;
+    height: 22px;
+    background-color:#AFAFAF ;
+    color: #fff;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 5px;
+}
+
+
+.market{
+    width: 1000px;
+    height: 295px;
+    /* background: #f0b095; */
+    padding-top: 10px;
+    margin: 0 auto;
+}
+.market h2{
+    line-height: 55px;
+    font: 500  #656972;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.market ul{
+    list-style-type: none;
+}
+.market ul li{
+     float: left;
+     width: 210px;
+     height: 252px;
+     margin: 0 20px;
+}
+.market ul li p{
+    line-height:22px ;
+    margin-top: 10px;
+}
+#footer{
+    width: 1000px;
+    background-color: #E5E5E5;
+    margin: 0 auto;
+}
+.fnav{
+    width: 960px;
+    height: 230px;
+    background: #e5e5e5;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px 20px 0 20px;
+}
+.fnav_left{
+    width: 450px;
+    float: left;
+}
+.fnav_center{
+    width:154px ;
+    float: left;
+    margin: 0 50px;
+}
+.fnav_right{
+    width:256px ;
+    float: left;
+}
+.fnav_left h3,.fnav_center h3,.fnav_right h3{
+    line-height: 40px;
+    font: 500  #656972;
+    font-size: 16px;
+    text-indent: 12px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 10px;
+}
+.ulbox ul{
+    float: left;
+}
+.ul002{
+    margin:0 34px 0 50px ;
+}
+.ulbox ul li{
+     line-height: 24px;
+} 
+.ulbox ul li a{
+    background: url(../images/images/flibg_03.jpg) no-repeat 5px center;
+    padding-left: 16px;
+}
+.map {
+    text-align: center;
+}
+
+.copyright{
+    width: 980px;
+    height: 36px;
+    background: #FCFCFC;
+    margin: 0 auto;
+    text-align: center;
+    color: #828282;
+    padding: 24px 0 0 20px ;
+}
+.aa{
+    float: left;
+}
+.aa a{
+    color: #A8A8A8;
+}
+.img0001 p{
+    float: left;
+    color: #A8A8A8;
+}
+.img0001{
+    float: right;
+    padding-right: 20px;
+}

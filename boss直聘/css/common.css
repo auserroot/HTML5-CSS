@@ -1,0 +1,82 @@
+#header{
+    height: 100px;
+    width: 100%;
+}
+.header_box{
+    width: 1170px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin: 0 auto;
+}
+.logo{
+    width: 54px;
+    height: 54px;
+    margin-top: 23px;
+    margin-right: 20px;
+    float: left;
+}
+.logo h1 a{
+    display: inline-block;
+    width: 54px;
+    height: 54px;
+    text-indent: -99999px;
+    background: url(../img/logo.jpg) no-repeat center; 
+}
+.nav ul{
+    float: left;
+    overflow: hidden;
+}
+.nav ul li{
+    float: left;
+    font-size: 16px;
+    color:#333333 ;
+}
+.nav ul li a{
+    font-size: 16px;
+    padding: 0 20px;
+    color: #333;
+}
+.nav ul li a:hover{
+    color: #53cac3;
+}
+.dowload{
+    float: right;
+}
+.dowload a{
+    font-size: 14px;
+    color: #000;
+}
+.dowload a img{
+    margin-right: 10px;
+    margin-top: -7px;
+}
+.dowload span{
+    margin: 0 10px;
+}
+
+#footer{
+    height:232px ;
+    background-color: #000;
+    min-width: 1170px;
+}
+.footer_box{
+    height:232px ;
+    width: 1170px;
+    text-align: center;
+    padding-top: 32px;
+    margin: 0 auto;
+}
+.footer_nav{
+    line-height: 84px;
+}
+.footer_nav a{
+    margin: 0 23px;
+    font-size:18px;
+    color: #fff;
+}
+.footer_box p{
+    font-size: 14px;
+    line-height: 28px;
+    color: #fff;
+}

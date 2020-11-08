@@ -1,0 +1,262 @@
+#banner{
+    width: 100%;
+    height: 398px;
+    background: url(../img/banner1.jpg) no-repeat center top;
+    background-size: 100% 100%;
+    min-width: 1170px;
+}
+.banner_box{
+    height: 398px;
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 52px;
+    text-align: center;
+}
+.banner_box p{
+    font-size: 38px;
+    color: #fff;
+    line-height: 136px;
+}
+.banner_box b a{
+    display: inline-block ;
+    width: 188px;
+    height: 44px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 22px;
+    color: #fff;
+    background-color: #53cac3;
+}
+#main{
+    width: 100%;
+    height: 436px;
+    background: #f3f3f3;
+    border: 1px solid #f3f3f3;
+}
+.main_box{
+    width: 1170px;
+    height: 436px;
+    background-color: #fff;
+    margin: -68px auto 16px auto;
+    padding-top: 55px ;
+}
+.main_box ul{
+    width: 284px;
+    padding:0 52px;
+    float: left;
+}
+.main_box ul li h2{
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 42px;
+    line-height: 20px;
+    padding-left: 10px;
+}
+.main_box ul li:nth-child(1){
+    position: relative;
+}
+.main_box ul li:nth-child(1)::before{
+    content: " ";
+    display: block;
+    width: 3px;
+    height: 15px;
+    background-color: #53cac3;
+    position: absolute;
+    top: 3px;
+    left: 0;
+}
+.main_box ul li:nth-child(1) h2 a{
+    display: block;
+    widows: 50px; 
+    height:20px ;
+    line-height: 20px;
+    border-radius: 10px;
+    color: #666;
+    border: 1px solid #bebebe;
+    font-size: 14px;
+    float: right;
+}
+.main_box ul li:nth-child(1) h2 a:hover{
+ background-color: #53cac3;
+ color: #fff;
+}
+.main_box ul li:nth-child(2){
+    width: 284px;
+    height: 156px;
+    margin-bottom: 28px;
+}
+.main_box ul li{
+    width: 284px;
+    font-size: 20px;
+    color: #000;
+}
+.main_box ul li:nth-child(3){
+    line-height: 32px;
+}
+.main_box ul li:nth-child(4) a{
+    font-size: 14px;
+    line-height: 28px;
+    color: #999;
+}
+.main_box ul{
+    position: relative;
+}
+.main_box ul::after{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 344px;
+    background-color:#ededed ;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.main_box ul:nth-child(3)::after{
+    display: none;
+}
+#news{
+    width: 100%;
+    height: 726px;
+    background: #f3f3f3;
+    
+}
+.news_box{
+    width: 1056px;
+    margin: 0 auto;
+    height: 726px;
+    background: #fff;
+    padding: 66px 46px 0 68px;
+}
+.news_left{
+    width: 1056px;
+    height: 726px;
+    overflow: hidden;
+}
+.news_left img{
+    width: 288px;
+    height: 156px;
+    float: left;
+    margin-right: 30px;
+    padding-top: 22px;
+}
+
+ .ul01,.ul02{
+    height: 194px;
+    padding-top: 22px;
+    border-bottom: 1px solid #ededed;
+} 
+.ul03{
+    padding-top: 22px;
+}
+.li01{
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.li02{
+    font-size: 14px;
+    line-height: 24px;
+    color: #666;
+}
+.li02 a{
+    font-size: 14px;
+    line-height: 22px;
+    color: #666;
+}
+.li03{
+    font-size: 14px;
+    color: #999;
+    /* margin-top: 30px; */
+}
+.li03 i span{
+    font-size: 14px;
+    color: #53cac3;
+}
+.li03 strong {
+    padding-left: 22px;
+    margin-left: 46px;
+    background: url(../img/icon03.jpg) no-repeat left center;
+}
+.line{
+    width: 100%;
+    height: 16px;
+    background-color: #f3f3f3;
+    margin: 0 auto;
+}
+#news_bot{
+    width: 100%;
+    background: #f3f3f3;
+}
+.news_bot_box{
+    width: 1122px;
+    height: 462px;
+    padding-left: 48px;
+    background-color: #fff;
+    margin: 0 auto ;
+}
+.li04{
+    font-size: 18px;
+    color: #53cac3;
+    line-height: 68px;
+    text-indent: 8px;
+    position: relative;
+}
+.li04::before{
+    content: " ";
+    display: block;
+    width: 3px;
+    height: 15px;
+    background-color: #53cac3;
+    position: absolute;
+    top: 26px;
+    left: 0;
+}
+.ul_top{
+    float: left;
+    width: 698px;
+    height: 394x;
+    /* overflow: hidden; */
+}
+.news_bot_box ul li ul{
+    height: 100px;
+    overflow: hidden;
+    /* width: 698px; */
+}
+.ul_top li ul{
+    border-bottom: 1px dashed #cccccc;
+}
+ 
+.li05{
+    padding: 8px 14px 8px 14px;
+    float: left;
+    height: 84px;
+}
+.li05 h3{
+    font-size: 14px;
+    line-height: 28px;
+    color: #53cac3;
+}
+.li05 p{
+    font-size: 12px;
+    line-height: 20px;
+    color: #999;
+}
+.li06{
+    float: left;
+}
+
+.img_bot{
+    width: 372px;
+    height: 392px;
+    float: right;
+    padding:10px 23px 0 23px;
+}
+
+.line02{
+    width: 100%;
+    height: 28px;
+    background-color: #f3f3f3;
+    margin: 0 auto;
+}
+
