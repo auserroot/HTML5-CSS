@@ -1,0 +1,155 @@
+html,body{
+    height: 100%;
+}
+#box{
+    height: 100%;
+    position: relative;
+}
+#header{
+    width: 3.2rem;
+    height: .44rem;
+    background: #0CC440;
+    display: flex;
+    padding-left: .16rem;
+    box-sizing: border-box;
+    margin: 0;
+}
+#header>a{
+    color: #fff;
+    align-self: center;
+}
+.but{
+    width: 1.18rem;
+     height: .24rem;
+   align-self: center;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+.but>a{
+    width: .59rem;
+    height: .24rem;
+    font-size: .12rem;
+    line-height: .24rem;
+    color: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.3);
+}
+.but a:nth-child(1){   
+    border-radius: .12rem 0 0 .12rem;
+}
+.but a:nth-child(2){
+    border-radius: 0 .12rem .12rem 0;
+}
+.but a:hover{
+    color: #fff;
+    background: rgba(255, 255, 255, 0.6);
+}
+#main{
+    width: 100%;
+    height: calc(100% - 90px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: #F1F1F1;
+    
+    box-sizing: border-box;
+}
+.main_header{
+    height: .7rem;
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+}
+.main_header>img{
+    width: .48rem;
+    height: .48rem;
+    border: 1px solid #999999;
+    border-radius: 50%;
+    margin-right: .07rem;
+    align-self: center;
+}
+.main_header div{
+    width: calc( 100% - .55rem);
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.main_header div strong{
+    font-size: .14rem;
+    font-weight: bold;
+    margin-right: .12rem;
+    display: flex;
+    justify-content: space-between;
+}
+.main_header div strong span{
+    font-size: .1rem;
+    font-weight: normal;
+    color: #999999;
+}
+.main_header div strong span img{
+    width: .12rem;
+    margin-left: .04rem;
+}
+.main_header div p{
+    margin-top: .12rem;
+    font-size: .12rem;
+    color: #999999;
+}
+#main div figure{
+    margin: 0 0 0.06rem 0;
+}
+#main div figure>img{
+    width: 3.2rem;
+    height: 2.84rem;
+    margin: 0;
+}
+#main div figure figcaption{
+    height: .32rem;
+    font-size:.12rem ;
+    line-height: .32rem;
+    text-indent: .12rem;
+    background-color: #fff;
+    border: 1px solid #E4E4E4;
+}
+
+
+#footer{
+    width: 3.2rem;
+    height: .44rem;
+    border-top: .01rem solid #D7D1D1;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    background: #fff;
+    position: relative;
+}
+#footer a{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #D6D6D6;
+    background: #fff;
+}
+#footer a:hover,#footer a:focus{
+    color: #10C13B;
+}
+#footer a>i{
+    align-self: center;
+}
+#footer a:nth-child(3){
+    width: .53rem;
+    height: .53rem;
+    border: .03rem solid #D6D6D6;
+    border-radius: 50%;
+    margin-top: -.14rem;
+    z-index: 9999;
+}
+#footer a:nth-child(3)>i{
+    font-size: .28rem;
+    line-height: .53rem;
+}

@@ -1,0 +1,128 @@
+html,body{
+    height: 100%;
+}
+#box{
+    height: 100%;
+    position: relative;
+}
+#header{
+    width: 3.2rem;
+    height: .44rem;
+    background: #0CC440;
+    display: flex;
+    padding-left: .16rem;
+    box-sizing: border-box;
+}
+#header>a{
+    color: #fff;
+    align-self: center;
+}
+.but{
+    width: 1.18rem;
+     height: .24rem;
+   align-self: center;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+.but>a{
+    width: .65rem;
+    height: .24rem;
+    font-size: .16rem;
+    line-height: .24rem;
+    color: #fff;
+}
+.but a:nth-child(1){   
+    border-radius: .12rem 0 0 .12rem;
+}
+.but a:nth-child(2){
+    border-radius: 0 .12rem .12rem 0;
+}
+.but a:hover{
+    color: #fff;
+    background: rgba(255, 255, 255, 0.6);
+}
+#main{
+    height: calc(100% - px);
+    display: flex;
+    flex-direction: column;
+}
+#main>img{
+    width: 3.185rem;
+    margin-top: .07rem;
+}
+#main form{
+    height: .62rem;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #CACACA;
+}
+#main form input{
+    width: 1.15rem;
+    height: .3rem;
+    background: none;
+    color: #0CC440;
+    border:1px solid #0CC440;
+    align-self: center;
+}
+#main .s_pic{
+    height: 1.55rem;
+    text-align: center;
+}
+#main .s_pic img{
+    width: 1.315rem;
+    margin: .2rem 0;
+}
+#main .s_pic a{
+    display: block;
+    width: 2.08rem;
+    height: .3rem;
+    background: #0BC540;
+    color: #fff;
+    font-size: .14rem;
+    line-height: .3rem;
+    margin: 0 auto;
+    border-radius: .05rem;
+}
+#main .s_pic a span{
+    display: inline-block;
+    width: .15rem;
+}
+#footer{
+    width: 3.2rem;
+    height: .44rem;
+    border-top: .01rem solid #D7D1D1;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    background: #fff;
+    position: relative;
+}
+#footer a{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #D6D6D6;
+    background: #fff;
+}
+#footer a:hover,#footer a:focus{
+    color: #10C13B;
+}
+#footer a>i{
+    align-self: center;
+}
+#footer a:nth-child(3){
+    width: .53rem;
+    height: .53rem;
+    border: .03rem solid #D6D6D6;
+    border-radius: 50%;
+    margin-top: -.14rem;
+    z-index: 9999;
+}
+#footer a:nth-child(3)>i{
+    font-size: .28rem;
+    line-height: .53rem;
+}
