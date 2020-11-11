@@ -1,0 +1,120 @@
+html,body{
+    height: 100%;
+}
+#header{
+    height: .42rem;
+    text-align: center;
+    border-bottom: 1px solid #ABABAB;
+}
+#header>h2{
+    font-size: .16rem;
+    line-height: .42rem;
+    font-weight: bold;
+}
+.nav{
+    width: 100%;
+    height: .44rem;
+    line-height: .44rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    overflow-y: hidden;
+    overflow-x: auto;
+    border-bottom: 1px solid #E4E4E4;
+}
+.nav a{
+    width: 20% ;
+    font-size: 14px;
+    color: #999;
+    flex: 1 0 auto;
+}
+.nav a:hover{
+    color: #000;
+    font-weight: bold;
+    border-bottom: 5px solid #26D1BF;
+}
+#main{
+    height: calc(100% - 1.39rem);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#main>dl>div{
+    padding: .12rem ;
+    box-sizing: border-box;
+    border-bottom: 1px solid #BFBFBF;
+}
+#main>dl>div>dt{
+    width: 100%;
+    display: flex;
+    font-size: .14rem;
+    line-height: .26rem;
+    color: #555;
+    justify-content: space-between;
+}
+#main>dl>div>dt>div>img{
+    width: .26rem;
+    height: .26rem;
+    border-radius: 50%;
+    margin-left: .06rem;
+    box-sizing: border-box;
+}
+#main>dl>div>dt>span{
+    width: .7rem;
+    height: .26rem;
+    line-height: .26rem;
+    text-align: center;
+    color: #fff;
+    background: #26D1BF;
+    border-radius: .13rem;
+}
+#main>dl>div>dd:nth-of-type(1){
+    font-size: .16rem;
+    line-height: .38rem;
+    margin-top: .06rem;
+    box-sizing: border-box;
+    color: #3C424B;
+    font-weight: bold;
+}
+#main>dl>div>dd:nth-of-type(2){
+    display: flex;
+    justify-content: space-evenly;
+}
+#main>dl>div>dd:nth-of-type(2)>img{
+    width: 30%;
+    box-shadow: 1px 1px 2px #333;
+}
+#main>dl>div>dd:nth-of-type(3){
+    font-size: .1rem;
+    color: #999;
+    margin: .1rem 0 .04rem 0;
+}
+#main>dl>div>dd:nth-of-type(3)>i{
+    font-size: .12rem;
+}
+
+
+
+
+#footer{
+    width: 3.75rem;
+    height: .5rem;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #e5e5e5;
+}
+#footer a{
+    display: flex;
+    flex-direction: column;
+    font-size: .1rem;
+    color: #676767;
+    align-self: center;
+}
+#footer a>i{
+    font-size: .2rem;
+    color: #676767;
+    align-self: center;
+    font-weight: bold;
+}
+#footer a:hover,#footer a:hover i{
+    color: #53b3b6;
+}
