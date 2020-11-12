@@ -105,6 +105,7 @@
 }
 .logo h1{
     opacity: 0;
+    filter:alpha(opacity=0);
 }
 .logo h1 a{
     display: block;
@@ -193,7 +194,7 @@
     display: inline-block;
     color: #fff;
     padding:0 14px;
-    background: url(../img/default_icon_bg.png) no-repeat;
+    /* background: url(../img/default_icon_bg.png) no-repeat; */
 }
 .nav_list>a:nth-child(1){
     background: none;
@@ -439,7 +440,27 @@
 .activity>ul>li{
     float: left;
 }
-.activity>ul>li:nth-child(1){
+.act_li01{
+    width: 350px;
+    margin-right: 6px;
+}
+.act_li02{
+    width: 190px;
+    margin: 0 7px;
+}
+.act_li03{
+    width: 215px;
+    margin-right: 6px;
+}
+.act_li04{
+    width: 190px;
+    margin: 0 7px;
+}
+.act_li05{
+    width: 190px;
+    margin-left: 6px;
+}
+/* .activity>ul>li:nth-child(1){
     width: 350px;
     margin-right: 6px;
 }
@@ -458,7 +479,7 @@
 .activity>ul>li:nth-child(5){
     width: 190px;
     margin-left: 6px;
-}
+} */
 .main_bottom{
     height: 426px;
 }
@@ -469,6 +490,7 @@
 .bot_pic{
     height: 202px;
     margin-bottom: 10px;
+    /* background: #fff; */
 }
 .bot_pic>ul>li{
     width: 190px;
@@ -479,10 +501,12 @@
     display: inline-block;
     width: 50%;
     height: 100%;
-    background: url(../img/201409101646002.png) no-repeat 0 -39px;
+    background: #fff url(../img/201409101646002.png) no-repeat 0 -39px;
 }
 .bot_bot{
     width: 190px;
+    height: 164px;
+    margin-top: -10px;
     background: #fff;
 }
 .bot_bot>a{
@@ -491,6 +515,7 @@
     line-height: 25px;
     color: #333;
     float: left;
+    background: #fff;
 }
 .bottom_center{
     float: left;
