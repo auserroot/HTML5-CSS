@@ -1,0 +1,135 @@
+#main{
+    height: calc(100% - .98rem);
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: #EEEEEE;
+}
+.top{
+    width: 3.07rem;
+    height: 2.17rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: .43rem 0;
+    border-bottom: .01rem solid #D5D5D5;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.top img{
+    width: .82rem;
+    height: .82rem;
+    border-radius: 50%;
+    border: .02rem solid #A09D98;
+    margin: 0 auto .07rem auto ;
+}
+.top p{
+    display: flex;
+    flex-direction: column;
+    font-size: .16rem;
+    font-weight: bold;
+    line-height: .25rem;
+    color: #363636;
+}
+.top p span{
+    font-size: .12rem;
+    color: #999;
+}
+.top p span i{
+    font-size: .12rem;
+    font-weight: bold;
+    margin-left: .06rem;
+}
+.center{
+    width: 3.07rem;
+    margin: .24rem auto .18rem;
+    padding-bottom: .24rem;
+    display: flex;
+    border-bottom: .01rem solid #D5D5D5;
+}
+.center li{
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: .12rem;
+    color: #999;
+}
+.center li span{
+    margin-top:.1rem;
+    font-size: .3rem ;
+    font-weight: bold;
+    color: #5A5A5A;
+}
+.line{
+    position: relative;
+}
+.line::after{
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: .01rem;
+    height: .54rem;
+    background: #C7C7C7;
+}
+.device{
+    width: 3.07rem;
+    margin: 0 auto;
+}
+.device p{
+    font-size: .12rem;
+    line-height: .3rem;
+    color: #999;
+    border-bottom: .01rem solid #D5D5D5;
+}
+.dev{
+    height: .5rem;
+    padding-top: .12rem;
+    border-bottom: .01rem solid #D5D5D5;
+    display: flex;
+}
+.dev>span{
+    width: .37rem;
+    height: .37rem;
+    border-radius: 50%;
+    background:#00A5C2 ;
+    text-align: center;
+    margin-right: .13rem;
+}
+.dev>span>i{
+    font-size: .2rem;
+    line-height: .37rem;
+    color: #fff;
+}
+.dev b{
+    height: .37rem;
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - .5rem);
+    font-size: .14rem;
+    line-height: .37rem;
+    color: #4C4C4C;
+}
+.dev span {
+    font-size: .12rem;
+    line-height: .37rem;
+    color:#8D8D8D;
+}
+.dev span i{
+    font-size: .16rem;
+    font-weight: bold;
+}
+.dev_bot{
+    height: .48rem;
+    border-bottom: .01rem solid #D5D5D5;
+    text-align: center;
+    line-height: .48rem;
+    font-size: .14rem;
+    color: #7F7F7F;
+}
+.dev_bot a{
+    color: #7F7F7F;
+}
+.dev_bot a i{
+    margin-right: .06rem;
+}

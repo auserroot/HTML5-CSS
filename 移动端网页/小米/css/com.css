@@ -1,0 +1,39 @@
+html,body{
+    height: 100%;
+}
+#header{
+    height: .44rem;
+    text-align: center;
+    background: #00A4C0;
+}
+#header>h2{
+    font-size: .14rem;
+    line-height: .44rem;
+    color: #fff;
+}
+
+#footer{
+    height: .54rem;
+    border-top: .01rem solid #E4E4E4;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    background: #fff;
+}
+#footer a{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: .12rem;
+    color: #808080;
+    background: #fff;
+}
+#footer a:hover,#footer a:focus{
+    color: #17AAC5;
+}
+#footer a>i{
+    font-size: .2rem;
+    font-weight: bold;
+    align-self: center;
+}

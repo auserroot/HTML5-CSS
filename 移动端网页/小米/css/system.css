@@ -1,0 +1,106 @@
+#main{
+height: 6rem;
+background-color: #EEEEEE;
+text-align: center;
+padding: .4rem 0 0 0;
+position: relative;
+}
+#main .icon{ 
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: .1rem;
+    width: .78rem;
+    height: .78rem;
+    background: #fff;
+}
+#main .icon i{
+    font-size: .68rem;
+}
+#main .icon b{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width:0;
+    height: 0;
+    border-left:.5rem solid #eee;
+    border-bottom: .5rem solid #eee;
+    border-top: .5rem solid transparent;
+    border-right: .5rem solid transparent;
+}
+#main .icon:hover b{
+    display: none;
+}
+#main>h2{
+    font-size: .16rem;
+    line-height: .66rem;
+    color: #3C3C3C;
+}
+#main>h2>span{
+    color: #F87D06;
+}
+#main>.mi{
+    width: .5rem;
+    height: .48rem;
+    background: #EF5B01;
+    text-align: center;
+    line-height: .48rem;
+    margin: 0 auto;
+}
+#main>.mi>i{
+    font-size: .28rem;
+    color: #fff;
+}
+#main>form{
+    width: 3.2rem;
+    height: .78rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: .15rem;
+    box-shadow: 0 0 .02rem #D9D9D9;
+    margin: .12rem auto;
+    position: relative;
+}
+#main form input{
+    border: 0;
+    width: 100%;
+    font-size: .14rem;
+    text-indent: .12rem;
+    color: #A3A3A3;
+    height: .33rem;
+}
+#main form input[type="text"]{  
+    border-bottom: .03rem solid #D8D8D8;
+    border-radius: .15rem .15rem 0 0;
+}
+#main form input[type="password"]{  
+    border-bottom: .03rem solid #D8D8D8;
+    border-radius:0 0 .15rem .15rem;
+}
+#main form i{
+    position: absolute;
+    top: .46rem;
+    right: .1rem;
+}
+#main>a{
+    display: block;
+    width: 3.2rem;
+    height: .4rem;
+    line-height: .4rem;
+    font-size: .14rem;
+    border-radius: .2rem;
+    color: #fff;
+    margin: .39rem auto .69rem auto;
+    background: #32B4FF;
+}
+.bottom>span{
+    display: inline-block;
+    width: .02rem;
+    height: .14rem;
+    margin:0 .11rem;
+    background: #E0E0E0;
+}
+.bottom>a{
+    font-size: .14rem;
+    color: #757575;
+}
